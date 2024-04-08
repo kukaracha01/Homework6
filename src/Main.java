@@ -26,6 +26,8 @@ public class Main {
         }
 
         System.out.println("Task6");
-
+        for (int seven = 7; seven <= 98; seven = seven + 7) {
+            System.out.println(seven);
+        }
     }
 }
