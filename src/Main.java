@@ -52,5 +52,12 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + allMoneyInBank + " рублей");
         }
 
+        System.out.println("Task10");
+        int number = 2;
+        for (int i = 1; i <= 10; i++) {
+            int summ = number * i;
+            System.out.println(number + "*" + i + "=" + summ);
+        }
+
     }
 }
