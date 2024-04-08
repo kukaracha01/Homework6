@@ -14,5 +14,11 @@ public class Main {
         for (int a = 0; a <= 17; a = a + 2) {
             System.out.println(a);
         }
+
+        System.out.println("Task4");
+        for (int b = 10; b >= -10; b--) {
+            System.out.println(b);
+        }
+
     }
 }
