@@ -29,5 +29,11 @@ public class Main {
         for (int seven = 7; seven <= 98; seven = seven + 7) {
             System.out.println(seven);
         }
+
+        System.out.println("Task7");
+        for (int c = 1; c <= 512; c = c * 2) {
+            System.out.println(c);
+        }
+
     }
 }
