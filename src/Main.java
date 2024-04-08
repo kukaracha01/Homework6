@@ -35,5 +35,15 @@ public class Main {
             System.out.println(c);
         }
 
+        System.out.println("Task8");
+        int summInMonth = 29000;
+        int allMoney = 0;
+        for (int i = 1; i <= 12; i++) {
+            allMoney = allMoney + summInMonth;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + allMoney + " рублей");
+        }
+
+        System.out.println("Task8");
+
     }
 }
