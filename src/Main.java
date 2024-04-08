@@ -20,5 +20,12 @@ public class Main {
             System.out.println(b);
         }
 
+        System.out.println("Task5");
+        for (int year = 1904; year <= 2096; year = year + 4) {
+            System.out.println(year + " год является високосным");
+        }
+
+        System.out.println("Task6");
+
     }
 }
