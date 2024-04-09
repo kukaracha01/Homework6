@@ -47,8 +47,8 @@ public class Main {
         summInMonth = 29000;
         int allMoneyInBank = 0;
         for (int i = 1; i <= 12; i++) {
-            allMoneyInBank = allMoneyInBank + allMoneyInBank / 100;
             allMoneyInBank = allMoneyInBank + summInMonth;
+            allMoneyInBank = allMoneyInBank + allMoneyInBank / 100;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + allMoneyInBank + " рублей");
         }
 
